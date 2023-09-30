@@ -115,6 +115,20 @@ main {
   color: #ffffff;
 }
 
+/* reasons */
+
+#reasons {
+  margin: 20px auto;
+}
+
+#reasons > h2 {
+  font-size: 280%;
+  margin-bottom: 20px;
+}
+
+#benefits {
+
+}
 /* footer */
 
 #social-networks {
@@ -124,7 +138,6 @@ main {
   justify-content: space-evenly;
   list-style-type: none;
 }
-
 
 #social-networks i {
   padding: 5%;
