@@ -90,10 +90,21 @@ main {
   margin-top: 47px;
 }
 /* footer */
-footer {
-  background-color: orange;
+
+#social-networks {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-evenly;
+  text-align: center;
+  list-style-type: none;
 }
 
+
+#social-networks i {
+  padding: 5%;
+  font-size: 160%;
+  color: #3a3a3a
+}
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
   /* Header */
