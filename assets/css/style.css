@@ -18,6 +18,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-spacing: 2px;
+  color: #252525
+}
+
 /* header */
 header {
   background-color: #ffffff;
@@ -36,12 +43,6 @@ header a {
   color: inherit;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-  text-spacing: 2px;
-  color: #252525
-}
 
 #menu {
   text-size: 110%;
@@ -95,7 +96,25 @@ main {
   height: 600px;
   width: 100%;
   background: url("../images/hero-image.webp") no-repeat center center/cover;
+  position: relative;
 }
+
+#cover-text {
+  /* Set background color for cover text with opacity */
+  background-color: rgba(241, 109,107, 0.7);
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+  color: #ffffff;
+}
+
 /* footer */
 
 #social-networks {
@@ -146,6 +165,11 @@ main {
   main {
     /* Push content down to accomodate larger header */
     margin-top: 79px;
+  }
+
+  #cover-text {
+    width: 300px;
+    right: 50px;
   }
 }
 
