@@ -188,6 +188,16 @@ background-color: rgba(0,0,0,.6);
 #times h3 {
   color: #fafafa;
 }
+
+#photos img {
+  /* Override the heading color set in general styles */
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  lite-height: 0;
+}
 /* footer */
 
 #social-networks {
