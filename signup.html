@@ -48,7 +48,7 @@
   </header>
 
   <!-- This is the main content -->
-  <main>
+  <main id="main-signup">
     <section id="signup">
       <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
         <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP!</h2>
@@ -60,15 +60,11 @@
         <input type="email" name="email_address" id="email_address" class="text-input" required><br>
         <div class="radio-buttons">
           <input type="radio" id="road" name="running_preference" required>
-          <label for="road">Road </label><br>
-        </div>
-        <div class="radio-buttons">
+          <label for="road">Road </label>
           <input type="radio" id="trail" name="running_preference" required>
-          <label for="trail">Trail </label><br>
-        </div>
-        <div class="radio-buttons">
+          <label for="trail">Trail </label>
           <input type="radio" id="both" name="running_preference" required>
-          <label for="both">Both </label><br>
+          <label for="both">Both </label>
         </div>
         <button type="submit" class="join-button">Let's Run!</button>
       </form>
