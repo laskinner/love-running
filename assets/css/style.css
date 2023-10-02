@@ -119,15 +119,51 @@ main {
 
 #reasons {
   margin: 20px auto;
+  width: 90%;
 }
 
 #reasons > h2 {
   font-size: 280%;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 #benefits {
+display: flex;
+  flex-direction: column;
+}
 
+#benefits > div > div {
+display: block;
+}
+
+#benefits > div > div > h3 {
+display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#benefits > div > div > p {
+  padding: 0 20px;
+}
+
+#benefits-physical {
+display: flex;
+  margin: 20px;
+}
+
+#benefits-mental {
+display: flex;
+  margin: 20px;
+}
+
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px 0;
+}
+
+i {
+  margin-left: 5px;
 }
 /* footer */
 
