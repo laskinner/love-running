@@ -213,6 +213,15 @@ background-color: rgba(0,0,0,.6);
   font-size: 160%;
   color: #3a3a3a
 }
+
+/* Media query: tablets and larger (576px and larger) */
+@media screen and (min-width: 576px) {
+#photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -249,6 +258,7 @@ background-color: rgba(0,0,0,.6);
     margin-top: 79px;
   }
 
+  /* Hero */
   #cover-text {
     width: 300px;
     right: 50px;
@@ -270,12 +280,21 @@ background-color: rgba(0,0,0,.6);
   text-align: end;
     align-self: flex-end;
   }
+
+  /* Gallery */
+  #photos {
+    column-count: 3;
+  }
 }
 
 @media screen and (min-width: 992px) {
 
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a
+  }
+  /* Gallery */
+  #photos {
+    column-count: 4;
   }
 }
 
