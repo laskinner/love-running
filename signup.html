@@ -59,12 +59,18 @@
         <label for="email_address">Email Address </label>
         <input type="email" name="email_address" id="email_address" class="text-input" required><br>
         <div class="radio-buttons">
-          <input type="radio" id="road" name="running_preference" required>
-          <label for="road">Road </label>
-          <input type="radio" id="trail" name="running_preference" required>
-          <label for="trail">Trail </label>
-          <input type="radio" id="both" name="running_preference" required>
-          <label for="both">Both </label>
+          <div>
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running_preference" required>
+          </div>
+          <div>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running_preference" required>
+          </div>
+          <div>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running_preference" required>
+          </div>
         </div>
         <button type="submit" class="join-button">Let's Run!</button>
       </form>

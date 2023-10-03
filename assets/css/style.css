@@ -252,21 +252,15 @@ background-color: rgba(0,0,0,.6);
     width: 100%;
 }
 
-.join-button:hover {
-  background-color: #fafafa;
-  color: #454b1b;
-}
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px 15px 32px;
+    margin-top: 20px;
+  }
 
-#text-input:hover {
-border-color: #f16c6b;
-}
-
-#text-input:hover {
-border-color: #f16c6b;
-}
-#text-input:hover {
-border-color: #f16c6b;
-}
 
 /* footer */
 
@@ -355,6 +349,29 @@ border-color: #f16c6b;
   #photos {
     column-count: 3;
   }
+
+    /* Signup form */
+    #signup {
+      background-position: center;
+      position: relative;
+    }
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #454b1b;
+}
+
+#text-input:hover {
+border-color: #f16c6b;
+}
+
 }
 
 @media screen and (min-width: 992px) {
